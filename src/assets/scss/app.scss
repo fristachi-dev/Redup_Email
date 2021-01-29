@@ -1,0 +1,262 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+h4 {
+    margin-bottom: 0 !important; 
+}
+
+.red {
+    background-color: red;
+}
+
+.row {
+    //border: 1px solid red;
+}
+
+.container {
+    border: 1px solid #bababa;
+}
+
+.vert-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav {
+    border-bottom: 1px solid #bababa;
+
+    .logo img {
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .menu-border {
+        border-left: 1px solid #bababa;
+        border-right: 1px solid #bababa;
+    }
+
+
+    .menu-item a {
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 2px;
+            margin-bottom: 0px !important;
+            line-height: 50px;
+    }
+
+}
+
+.main {
+    padding: 0 40px !important;
+}
+
+.section-1 {
+    //background-color: lightblue;
+    background: url("https://ecp.yusercontent.com/mail?url=https%3A%2F%2Fstatic.cdn.responsys.net%2Fi5%2Fresponsysimages%2Fcontent%2Fthredup%2F10292020-topAdsEmail-00.jpg&t=1610395330&ymreqid=c241051c-af9c-2f4d-30c3-490021011d00&sig=3cFRe9Yl7Zhq5muC2x81Bw--~D");
+    height: 230px;
+    width: 570px;
+
+    .columns th{
+        padding-left: 6px !important;
+    }
+
+    h4 {
+       font-weight: bold;
+       font-size: 16px;
+       letter-spacing: 2px;
+       line-height: 30px;
+       margin-top: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.section-2 {
+    background-color: #F6F6F6;
+}
+
+.right-panel {
+    background-color: #F6F6F6;
+
+    h2 {
+        margin-top: 25%;
+        letter-spacing: 2px;
+        font-size: 34px;
+    }
+
+    h5 {
+        font-weight: bold !important;
+        letter-spacing: 2.5px;
+        border: 1px solid black;
+        font-size: 14px;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 634px) {
+    .right-panel {
+        h2 {
+            font-size: 26px;
+        }
+        h5 {
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 14px;
+        }
+    }
+
+    .nav {
+
+        .logo img {
+            margin-left: 8px;
+        }
+
+        .menu-item a{
+            letter-spacing: 1px;
+        }
+
+    }
+
+    
+}
+
+.section-3 {
+    background-color: #FCEFE7;
+
+    h4 {
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        margin-top: 46px;
+    }
+
+    h2 {
+        font-size: 34px;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 0px !important;
+    }
+
+    .btn {
+        font-weight: bold !important;
+        letter-spacing: 2.5px;
+        border: 1px solid black;
+        font-size: 14px;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 20px;
+        width: 230px;
+        margin-bottom: 0 !important;
+    }
+
+    a {
+        margin-top: 30px;
+        display: block;
+        width: fit-content;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.section-4 {
+    background-color: #37807F;
+
+
+    h4 {
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        margin-top: 46px;
+        color: white;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 0px !important;
+        color: white;
+    }
+
+    .btn {
+        font-weight: bold !important;
+        letter-spacing: 2.5px;
+        border: 1px solid white;
+        font-size: 14px;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 20px;
+        width: 230px;
+        margin-bottom: 0 !important;
+        color: white;
+    }
+
+    a {
+        margin-top: 20px;
+        display: block;
+        width: fit-content;
+    }
+
+    .margin-bottom {
+        margin-bottom: 40px !important;
+    }
+    
+}
+
+.section-5 {
+    background-color: #F6F6F6;
+    border-top: 1px solid  #bababa;
+
+    h4 {
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 30px;
+        border-bottom: 1px solid  #bababa;
+    }
+
+
+    .divider {
+        margin: 0 10px;
+    }
+
+    a {
+        font-weight: bold;
+    }
+
+    img {
+        margin: 10px !important;
+    }
+
+    p {
+        border-top: 1px solid  #bababa;
+        color: #7F7F7F;
+        font-size: 12px;
+        padding: 14px 20px 30px;
+    }
+}
